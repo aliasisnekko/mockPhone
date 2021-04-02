@@ -26,26 +26,36 @@ hr {
     margin-top: 7px;
 }
 
+@media all and (max-width:6000px) {
+    main {
+        width: 500px;
+    }
+}
+
 main {
     background-color: white;
     border-width: 2px;
     border-style: solid;
     margin: 5px 40px 0 40px;
     padding: 7px;
-    height: 75%;
-    border-radius: 7%;
+    height: 80%;
+    border-radius: 6%;
 }
 
-main>div {
-    font-size: 10px;
-    margin-left: 25px;
-    position: absolute;
-    color: rgb(80, 78, 74);
+h3 {
+    padding-right: 15px;
+    padding-left: 45px;
 }
 
 footer {
-    font-family: 'Sawarabi Gothic', sans-serif;
     padding-top: 1%;
+}
+
+.smooth-text {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -80,22 +90,128 @@ footer {
     border-color: rgb(129, 37, 88);
 }
 
-.notificationsBar {
-    padding-top: 8px;
+.i-flex {
     display: inline-flex;
+}
+
+.notificationsBar {
+    padding-top: 1px;
+    font-size: 10px;
+    margin-left: 15px;
+    position: absolute;
+    color: rgb(80, 78, 74);
 }
 
 .icons {
     position: relative;
-    font-size: 20px;
-    margin-left: 7px;
+    font-size: 18px;
+    margin-left: 8px;
 }
 
 .left-align {
-    position: absolute;
-    margin-left: 66%;
+    position: relative;
+    margin-left: 80%;
 }
 
 .fa-2x {
     font-size: 1.5em;
+}
+
+.screen-name {
+    padding: 10px 0 0 10px;
+}
+
+.small-symbol {
+    font-size: 14px;
+    position: relative;
+    margin: 0 10px 5px 0px;
+}
+
+.menu {
+    padding-top: 7px;
+}
+
+.addBTN {
+    margin-left: 200px;
+    padding-right: 15px;
+}
+
+.line-padding {
+    margin: 15px 0 0 0;
+}
+
+.profile-img {
+    margin: 20px 0 0 15px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-count {
+    padding: 40px 0 0 25px;
+}
+
+.block {
+    display: inline;
+}
+
+.top-padding {
+    padding-top: 7px;
+}
+
+.dull-text {
+    color: grey;
+}
+
+.box-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.box1 {
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+    margin: 20px 18px 0;
+}
+
+.boxes {
+    border-radius: 5px;
+    position: relative;
+}
+
+.box2 {
+    border-color: rgb(224, 11, 11);
+    width: 150px;
+    height: 150px;
+}
+
+.box3 {
+    border-color: rgb(19, 238, 55);
+    width: 150px;
+    height: 150px;
+}
+
+.box4 {
+    border-color: rgb(23, 74, 241);
+    width: 150px;
+    height: 150px;
+}
+
+.box-text {
+    font-weight: bold;
+}
+
+#posts {
+    padding-right: 35px;
+    padding-left: 40px;
+}
+
+#followers {
+    padding-right: 15px;
+}
+
+#bio {
+    padding-top: 20px;
+    padding-left: 20px;
 }
