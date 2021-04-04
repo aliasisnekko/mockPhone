@@ -26,12 +26,6 @@ hr {
     margin-top: 7px;
 }
 
-@media all and (max-width:6000px) {
-    main {
-        width: 500px;
-    }
-}
-
 main {
     background-color: white;
     border-width: 2px;
@@ -45,10 +39,6 @@ main {
 h3 {
     padding-right: 15px;
     padding-left: 45px;
-}
-
-footer {
-    padding-top: 1%;
 }
 
 .smooth-text {
@@ -79,11 +69,7 @@ footer {
 .nav-link {
     position: relative;
     margin-right: 25px;
-    color: crimson;
-}
-
-.nav-link:hover {
-    color: rgb(57, 84, 90)
+    color: rgb(29, 170, 170);
 }
 
 .colored-border {
@@ -127,10 +113,6 @@ footer {
     margin: 0 10px 5px 0px;
 }
 
-.menu {
-    padding-top: 7px;
-}
-
 .addBTN {
     margin-left: 200px;
     padding-right: 15px;
@@ -159,6 +141,10 @@ footer {
     padding-top: 7px;
 }
 
+.right-padding {
+    padding-right: 82px;
+}
+
 .dull-text {
     color: grey;
 }
@@ -169,37 +155,85 @@ footer {
     border-color: black;
 }
 
+.rounded-border {
+    border-radius: 5px;
+}
+
 .box1 {
     padding: 5px 0 5px 0;
-    border-radius: 5px;
     margin: 20px 18px 0;
 }
 
+._150x150 {
+    width: 150px;
+    height: 15px;
+    padding: 7px 0;
+}
+
+.left-margin {
+    margin-left: 5px;
+}
+
 .boxes {
-    border-radius: 5px;
+    margin: 8px 18px 0;
     position: relative;
-}
-
-.box2 {
-    border-color: rgb(224, 11, 11);
-    width: 150px;
-    height: 150px;
-}
-
-.box3 {
-    border-color: rgb(19, 238, 55);
-    width: 150px;
-    height: 150px;
-}
-
-.box4 {
-    border-color: rgb(23, 74, 241);
-    width: 150px;
-    height: 150px;
 }
 
 .box-text {
     font-weight: bold;
+}
+
+.highlights {
+    padding: 10px 20px;
+}
+
+.circles {
+    padding-top: 15px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    border-width: 2px;
+}
+
+a.top-padding {
+    color: rgb(29, 170, 170);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hotpink !important;
+}
+
+
+/* p.smooth-text {
+    font-size: 12px;
+    font-weight: 500;
+} */
+
+button.circle.left-margin {
+    margin-left: 35px;
+}
+
+i.left-margin {
+    margin-left: 45px !important;
+    padding-right: 150px;
+}
+
+img._150x150 {
+    width: 150px;
+    height: 160px;
+    /* padding: 0 7px !important; */
+    padding-top: 0;
+    padding-right: 5px;
+}
+
+#add {
+    font-size: 18px;
 }
 
 #posts {
@@ -214,4 +248,18 @@ footer {
 #bio {
     padding-top: 20px;
     padding-left: 20px;
+}
+
+.footer-padding {
+    padding-top: 1%;
+}
+
+#footer-nav {
+    padding-left: 10%;
+}
+
+@media all and (max-width:6000px) {
+    main {
+        width: 500px;
+    }
 }
