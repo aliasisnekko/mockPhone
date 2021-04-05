@@ -27,6 +27,10 @@ hr {
 }
 
 main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     background-color: white;
     border-width: 2px;
     border-style: solid;
